@@ -2,8 +2,8 @@
 
 A private-source engineering case study for a Rust-based platform that collects publicly available horse-racing data, preserves source evidence, schedules time-sensitive collection work, and supports safe day-2 operations.
 
-**Portfolio note**
-This repository documents architecture and engineering decisions only. The production source code, credentials, source-specific request contracts, operational endpoints, and collected datasets remain private.
+> **Portfolio note**  
+> This repository documents architecture and engineering decisions only. The production source code, credentials, source-specific request contracts, operational endpoints, and collected datasets remain private.
 
 ## Why I built it
 
