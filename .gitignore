@@ -1,0 +1,13 @@
+.DS_Store
+*.env
+.env*
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+*.log
+*.zip
+*.tar.gz
+secrets/
+data/
+backups/
