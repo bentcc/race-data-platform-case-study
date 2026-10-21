@@ -1,5 +1,7 @@
 # Release Process and Provenance
 
+This document describes the private platform's release process. Public [CI](../.github/workflows/ci.yml) currently verifies only the reference code and examples; it does not publish release artifacts or perform deployments.
+
 ## 1. Goal
 
 The release process is designed to answer a basic operational question:

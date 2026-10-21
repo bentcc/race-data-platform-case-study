@@ -11,3 +11,4 @@
 secrets/
 data/
 backups/
+/target/

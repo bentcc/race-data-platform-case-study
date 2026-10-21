@@ -67,6 +67,8 @@ The dashboard is read-only to avoid turning an observation surface into an unrev
 
 ## 6. Testing strategy
 
+The public [reference tests](../tests/reference_patterns.rs) cover queue ownership and recovery, deterministic scheduling, and file-integrity verification. Public [CI](../.github/workflows/ci.yml) checks formatting, linting, tests, and executable examples. These tests do not exercise the private collector or its infrastructure.
+
 The private project includes tests around areas that commonly fail only during operations, including:
 
 - job claim lifecycle and stale recovery;

@@ -2,7 +2,7 @@
 
 ## 1. Purpose of this public repository
 
-This repository is a portfolio case study. It is intended to demonstrate systems/backend engineering decisions without converting a private operational project into a public deployment manual.
+This repository contains an engineering case study and independently written Rust reference implementations using synthetic data. It demonstrates systems/backend engineering decisions without converting a private operational project into a public deployment manual.
 
 ## 2. Safe to publish
 
@@ -16,7 +16,8 @@ The following are intentionally suitable for public discussion:
 - backup/restore invariants;
 - CI and release-provenance principles;
 - sanitized diagrams;
-- design trade-offs and known limitations.
+- design trade-offs and known limitations;
+- generic reference code, regression tests, and synthetic fixtures under the repository's MIT license.
 
 ## 3. Keep private
 
@@ -72,4 +73,4 @@ screenshots with operational metadata
 Git history containing previously removed secrets
 ```
 
-Important: deleting a secret from the working tree is not enough if it already exists in Git history. A public case-study repository should ideally be created as a **new repository with new history**, copying only the curated documents into it.
+Important: deleting a secret from the working tree is not enough if it already exists in Git history. This public repository has separate history; keep additions limited to curated documents, independently written generic code, and synthetic fixtures.

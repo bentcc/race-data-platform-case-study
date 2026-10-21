@@ -1,5 +1,7 @@
 # Architecture
 
+This document describes the broader private platform. The [public reference code](../README.md#run-the-public-examples) implements only the queue, scheduler, and file-integrity verification patterns.
+
 ## 1. System boundary
 
 The platform is a single-node Rust service with a SQLite operational store, retained raw payload storage, a read-only dashboard, and an off-host backup path.

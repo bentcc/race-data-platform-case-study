@@ -1,0 +1,17 @@
+[package]
+name = "race-data-platform-examples"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.94"
+description = "Small Rust reference implementations for reliable single-node data systems"
+license = "MIT"
+repository = "https://github.com/bentcc/race-data-platform-case-study"
+publish = false
+
+[workspace]
+members = ["."]
+resolver = "2"
+
+[dependencies]
+rusqlite = { version = "0.32", features = ["bundled"] }
+sha2 = "0.10"
